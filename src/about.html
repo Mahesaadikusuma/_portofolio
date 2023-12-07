@@ -30,14 +30,24 @@
 
             <div class="flex items-center gap-4">
               <div
-                class="hover:bg-slate-300 p-2 rounded-full cursor-pointer"
-                id="dark">
+              class="hover:bg-slate-300 p-2 rounded-full cursor-pointer" id="toggleMobile"
+              >
+              <div class="hidden" id="dark-mobile">
                 <i
-                  data-feather="moon"
-                  width="20"
-                  height="20"
-                  class="font-medium"></i>
+                data-feather="moon"
+                width="20"
+                height="20"
+                class="font-medium"></i>
               </div>
+
+              <div class="" id="light-mobile">
+                <i
+                data-feather="sun"
+                width="20"
+                height="20"
+                class="font-medium"></i>
+              </div>
+            </div>
               <div class="cursor-pointer" id="hamburger">
                 <i
                   data-feather="align-right"
@@ -122,12 +132,22 @@
                   <span class="font-bold text-lg">Hire Me</span>
                 </div>
                 <div class="flex items-center justify-center cursor-pointer">
-                  <div class="hover:bg-slate-300 p-2 rounded-full" id="button">
-                    <i
+                  <div class="hover:bg-slate-300 p-2 rounded-full "  id="button-theme">
+                    <div class="hidden" id="darkD">
+                      <i
                       data-feather="moon"
                       width="20"
                       height="20"
                       class="font-medium"></i>
+                    </div>
+
+                    <div class="" id="lightD">
+                      <i
+                      data-feather="sun"
+                      width="20"
+                      height="20"
+                      class="font-medium"></i>
+                    </div>
                   </div>
                 </div>
               </div>
