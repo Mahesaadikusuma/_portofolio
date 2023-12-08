@@ -84,8 +84,31 @@ function saveThemePreference() {
 
 // Hamburger button
 const hamburger = document.getElementById('hamburger')
+const iconAlign = document.getElementById('align-right')
+const iconClose = document.getElementById('close')
 const navMenu = document.getElementById('nav-menu')
 
-hamburger.addEventListener('click', () => {
-     navMenu.classList.toggle('hidden')
-})
+// hamburger.addEventListener('click', () => {
+//      const isMenu = navMenu.classList.contains('hidden');
+//      // navMenu.classList.toggle('hidden')
+//      if (isMenu) {
+//           navMenu.classList.remove('hidden');
+//           iconAlign.classList.add('hidden');
+//           iconClose.classList.remove('hidden');
+//      } else {
+//           iconAlign.classList.remove('hidden');
+//           iconClose.classList.add('hidden');
+//           navMenu.classList.add('hidden');
+//      }
+// })
+
+hamburger.addEventListener('click', toggleMenu)
+
+function toggleMenu() {
+     const isMenu = navMenu.classList.contains('hidden');
+     navMenu.classList.toggle('hidden');
+
+     iconAlign.classList.toggle('hidden', isMenu);
+     iconClose.classList.toggle('hidden', !isMenu);
+}
+

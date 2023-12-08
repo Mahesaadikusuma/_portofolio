@@ -6,11 +6,17 @@
     <meta name="description" content="Showcase Project Protofolio" />
     <meta name="keywords" content="Protofolio, project, IT" />
     <meta name="author" content="Mahesa Adi Kusuma" />
-    <title>About</title>
+    <title>Furniluxe Laravel 10</title>
+
     <link href="/dist/build/build.css" rel="stylesheet" />
-    
-  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css"
+      rel="stylesheet" />
   </head>
+
   <body>
     <section class="max-w-6xl mx-auto">
       <div class="container mx-auto">
@@ -19,49 +25,48 @@
           <div class="flex items-center justify-between">
             <div class="">
               <img
-                src="./assets/images/esa.webp"
+                src="/src/assets/images/esa_1.webp"
                 alt="avatar_profile"
                 class="w-12 h-12 rounded-full border-2 border-slate-300" />
             </div>
 
             <div class="flex items-center gap-4">
               <div
-              class="hover:bg-slate-300 p-2 rounded-full cursor-pointer" id="toggleMobile"
-              >
-              <div class="hidden" id="dark-mobile">
-                <i
-                data-feather="moon"
-                width="20"
-                height="20"
-                class="font-medium"></i>
-              </div>
+                class="hover:bg-slate-300 p-2 rounded-full cursor-pointer"
+                id="toggleMobile">
+                <div class="hidden" id="dark-mobile">
+                  <i
+                    data-feather="moon"
+                    width="20"
+                    height="20"
+                    class="font-medium"></i>
+                </div>
 
-              <div class="" id="light-mobile">
-                <i
-                data-feather="sun"
-                width="20"
-                height="20"
-                class="font-medium"></i>
+                <div class="" id="light-mobile">
+                  <i
+                    data-feather="sun"
+                    width="20"
+                    height="20"
+                    class="font-medium"></i>
+                </div>
               </div>
-            </div>
-            <div class="cursor-pointer" id="hamburger">
-              <div class="" id="align-right">
-                <i
-                data-feather="align-right"
-                width="30"
-                height="30"
-                class="font-medium cursor-pointer"></i>
-              </div>
+              <div class="cursor-pointer" id="hamburger">
+                <div class="" id="align-right">
+                  <i
+                    data-feather="align-right"
+                    width="30"
+                    height="30"
+                    class="font-medium cursor-pointer"></i>
+                </div>
 
-
-              <div class="hidden" id="close">
-                <i
-                data-feather="x"
-                width="30"
-                height="30"
-                class="font-medium cursor-pointer"></i>
+                <div class="hidden" id="close">
+                  <i
+                    data-feather="x"
+                    width="30"
+                    height="30"
+                    class="font-medium cursor-pointer"></i>
+                </div>
               </div>
-            </div>
             </div>
           </div>
 
@@ -111,7 +116,7 @@
 
                   <li
                     class="p-3 pl-5 my-1 text-neutral-700 hover:bg-slate-100 hover:scale-105 duration-300 ease-in-out cursor-pointer rounded-lg">
-                    <a href="/src/about.html" class="flex items-center gap-5">
+                    <a href="#" class="flex items-center gap-5">
                       <i
                         data-feather="info"
                         width="20"
@@ -127,9 +132,8 @@
         </header>
         <!-- Mobile -->
 
-        <div class="grid grid-cols-12 gap-7">
-          <!-- sidebar -->
-
+        <div class="grid grid-cols-12 gap-7 my-4">
+          <!-- SIDEBAR -->
           <div class="hidden lg:block col-span-3">
             <header class="sticky top-0">
               <div class="flex items-center justify-between">
@@ -139,21 +143,23 @@
                   <span class="font-bold text-lg">Hire Me</span>
                 </div>
                 <div class="flex items-center justify-center cursor-pointer">
-                  <div class="hover:bg-slate-300 p-2 rounded-full "  id="button-theme">
+                  <div
+                    class="hover:bg-slate-300 p-2 rounded-full"
+                    id="button-theme">
                     <div class="hidden" id="darkD">
                       <i
-                      data-feather="moon"
-                      width="20"
-                      height="20"
-                      class="font-medium"></i>
+                        data-feather="moon"
+                        width="20"
+                        height="20"
+                        class="font-medium"></i>
                     </div>
 
                     <div class="" id="lightD">
                       <i
-                      data-feather="sun"
-                      width="20"
-                      height="20"
-                      class="font-medium"></i>
+                        data-feather="sun"
+                        width="20"
+                        height="20"
+                        class="font-medium"></i>
                     </div>
                   </div>
                 </div>
@@ -162,9 +168,11 @@
               <div class="flex items-center flex-col my-5">
                 <div class="image">
                   <img
-                    src="./assets/images/esa.webp"
+                    src="/src/assets/images/esa_1.webp"
                     alt="avatar_profile"
-                    class="w-28 h-28 rounded-full border-4 border-slate-100" width="112" height="112" />
+                    class="w-28 h-28 rounded-full border-4 border-slate-100"
+                    width="112"
+                    height="112" />
                 </div>
 
                 <div class="my-3">
@@ -188,8 +196,10 @@
                     </li>
 
                     <li
-                      class="p-3 pl-5 my-1  text-neutral-700 hover:bg-slate-100 hover:scale-105 transition duration-300 ease-in-out cursor-pointer rounded-lg">
-                      <a href="/src/project.html" class="flex items-center gap-5">
+                      class="p-3 pl-5 my-1 bg-slate-100 text-neutral-700 hover:bg-slate-100 hover:scale-105 transition duration-300 ease-in-out cursor-pointer rounded-lg">
+                      <a
+                        href="/src/project.html"
+                        class="flex items-center gap-5">
                         <i
                           data-feather="folder"
                           width="20"
@@ -212,7 +222,7 @@
                     </li>
 
                     <li
-                      class="p-3 pl-5 my-4 bg-slate-100 text-neutral-700 hover:bg-slate-100 hover:scale-105 duration-300 ease-in-out cursor-pointer rounded-lg">
+                      class="p-3 pl-5 my-4 text-neutral-700 hover:bg-slate-100 hover:scale-105 duration-300 ease-in-out cursor-pointer rounded-lg">
                       <a href="/src/about.html" class="flex items-center gap-5">
                         <i
                           data-feather="info"
@@ -237,18 +247,28 @@
               </div>
             </header>
           </div>
-          <!-- sidebar -->
+          <!-- SIDEBAR -->
 
           <!-- MAIN -->
           <div class="col-span-12 lg:col-span-9 px-5">
             <main>
-              <div class="my-5">
+              <div class="">
+                <a
+                  href="/src/project.html"
+                  class="flex items-center gap-3 mb-7 cursor-pointer">
+                  <i
+                    data-feather="arrow-left-circle"
+                    width="20"
+                    height="20"
+                    class="font-medium text-neutral-800">
+                  </i>
+                  <span class="">Back</span>
+                </a>
                 <div class="">
                   <div class="flex item-center justify-between">
                     <h1 class="font-bold text-2xl text-neutral-800">
-                      About
+                      Projects
                     </h1>
-                    
                   </div>
 
                   <p
@@ -257,30 +277,85 @@
                   </p>
                 </div>
 
-                <div class="my-10">
-                  <!-- <h1 class="font-bold text-xl text-neutral-900 mb-5">Latest Projects</h1> -->
-                  <div
-                    class="flex flex-col space-y-4 text-neutral-800 leading-relaxed tracking-normal text-justify  ">
-                    
-                    <!-- project -->
-                    
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium similique pariatur rem sunt facere, deleniti asperiores porro dignissimos beatae eum? Voluptatibus id magnam excepturi debitis ab explicabo! Corrupti atque quis asperiores obcaecati magni eius facere, tempora natus autem provident fugit ex ipsam recusandae in expedita facilis inventore et distinctio ipsa.</p>
+                <div class="my-5">
+                  <div class="flex items-center justify-between">
+                    <div class="">
+                      <h1 class="font-medium">Tech Stack</h1>
+                    </div>
 
-                      <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium similique pariatur rem sunt facere, deleniti asperiores porro dignissimos beatae eum? Voluptatibus id magnam excepturi debitis ab explicabo! Corrupti atque quis asperiores obcaecati magni eius facere, tempora natus autem provident fugit ex ipsam recusandae in expedita facilis inventore et distinctio ipsa.</p>
-
-                      
-                   
-                    <!-- project -->
+                    <div class="flex items-center gap-2">
+                      <i
+                        data-feather="github"
+                        width="20"
+                        height="20"
+                        class="font-medium text-neutral-800">
+                      </i>
+                      <a href="" class="font-medium"> Source Code </a>
+                    </div>
                   </div>
                 </div>
 
-                <!-- <div class="">
-                      <div class="">
-                        <h1>Skill</h1>
-                        <p>My Skill Coding</p>
-                       
+                <div class="my-10">
+                  <div class="flex flex-col">
+                    <!-- <div class="">
+					<img src="/src/assets/images/ayam-bakar.webp" class="object-cover" alt="" width="800" height="800">
+				</div>
+
+				<div class="my-10">
+					<div class="flex overflow-x-scroll gap-3 ">
+						<div class="object-cover ">
+							<img src="/src/assets/images/ayam-bakar.webp" class="object-cover rounded-lg" alt="" width="200" height="200">
+						</div>
+
+						<div class="object-cover ">
+							<img src="/src/assets/images/ayam-bakar.webp" class="object-cover rounded-lg" alt="" width="200" height="200">
+						</div>
+
+						<div class="object-cover ">
+							<img src="/src/assets/images/ayam-bakar.webp" class="object-cover rounded-lg" alt="" width="200" height="200">
+						</div>
+
+						<div class="object-cover ">
+							<img src="/src/assets/images/ayam-bakar.webp" class="object-cover rounded-lg" alt="" width="200" height="200">
+						</div>
+
+						<div class="object-cover ">
+							<img src="/src/assets/images/ayam-bakar.webp" class="object-cover rounded-lg" alt="" width="200" height="200">
+						</div>
+
+						
+					</div>
+				</div> -->
+
+                    <div id="main-slider" class="splide">
+                      <div class="splide__track">
+                        <ul class="splide__list">
+                          <li class="splide__slide">
+                            <img src="/src/assets/images/ayam-bakar.webp" />
+                          </li>
+                          <li class="splide__slide">
+                            <img src="/src/assets/images/Image-2.webp" />
+                          </li>
+                        </ul>
                       </div>
-                    </div> -->
+                    </div>
+
+                    <ul
+                      id="thumbnails"
+                      class="thumbnails flex my-5 gap-3 justify-center">
+                      <li class="thumbnail opacity-30 ">
+                        <img
+                          src="/src/assets/images/ayam-bakar.webp"
+                           />
+                      </li>
+                      <li class="thumbnail opacity-30 ">
+                        <img
+                          src="/src/assets/images/Image-2.webp" width="150" height="150"
+                          />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </main>
           </div>
@@ -289,11 +364,48 @@
       </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
     <script src="/src/js/theme.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+      var splide = new Splide("#main-slider", {
+        pagination: false,
+      });
+
+      var thumbnails = document.getElementsByClassName("thumbnail");
+      var current;
+
+      for (var i = 0; i < thumbnails.length; i++) {
+        initThumbnail(thumbnails[i], i);
+      }
+
+      function initThumbnail(thumbnail, index) {
+        thumbnail.addEventListener("click", function () {
+          splide.go(index);
+        });
+      }
+
+      splide.on("mounted move", function () {
+        var thumbnail = thumbnails[splide.index];
+
+        if (thumbnail) {
+          if (current) {
+            current.classList.remove("is-active");
+          }
+
+          thumbnail.classList.add("is-active");
+          current = thumbnail;
+        }
+      });
+
+      splide.mount();
+    </script>
+
     <script>
       feather.replace();
-      updateIcon(); 
+      updateIcon();
     </script>
   </body>
 </html>
