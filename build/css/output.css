@@ -706,20 +706,12 @@ video {
   height: 0.75rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-44 {
-  height: 11rem;
-}
-
 .h-36 {
   height: 9rem;
 }
 
-.h-40 {
-  height: 10rem;
+.h-4 {
+  height: 1rem;
 }
 
 .w-12 {
@@ -830,10 +822,6 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.scroll-smooth {
-  scroll-behavior: smooth;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -907,6 +895,11 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -920,21 +913,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
-.bg-blue-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -991,6 +969,11 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1009,11 +992,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1063,11 +1041,6 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.text-neutral-400 {
-  --tw-text-opacity: 1;
-  color: rgb(163 163 163 / var(--tw-text-opacity));
-}
-
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
@@ -1100,11 +1073,6 @@ video {
 
 .underline {
   text-decoration-line: underline;
-}
-
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .opacity-0 {
@@ -1244,10 +1212,5 @@ video {
 
   .lg\:gap-0 {
     gap: 0px;
-  }
-
-  .lg\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
   }
 }

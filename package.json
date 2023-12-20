@@ -82,8 +82,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tailwindcss -i ./src/style/style.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/style/style.css -o ./dist/build/build.css --minify"
+    "dev": "npx tailwindcss -i ./src/style.css -o ./build/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/style.css -o ./build/css/build.css --minify"
   },
   "author": "",
   "license": "ISC",
