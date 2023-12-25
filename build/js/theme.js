@@ -14,6 +14,7 @@ const html = document.querySelector('html')
 const toggleMobile = document.getElementById('toggleMobile')
 const MobileLight = document.getElementById('light-mobile')
 const MobileDark = document.getElementById('dark-mobile')
+
 toggleMobile.addEventListener('click', () => {
      toggleDarkMode();
 })
@@ -63,8 +64,8 @@ function updateIcon() {
      darkD.classList.toggle('hidden', !isDarkMode);
      lightIcon.classList.toggle('hidden', isDarkMode);
 
-     MobileDark.classList.toggle('hidden', isDarkMode);
-     MobileLight.classList.toggle('hidden', !isDarkMode);
+     MobileDark.classList.toggle('hidden', !isDarkMode);
+     MobileLight.classList.toggle('hidden', isDarkMode);
 
      localStorage.theme = isDarkMode ? 'dark' : 'light';
 }

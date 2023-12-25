@@ -6,7 +6,7 @@
 
 @layer utilities{
 .thumbnail.is-active {
-     @apply opacity-100 ;
+     @apply opacity-100 border-2  ;
      }
      
      .thumbnail {

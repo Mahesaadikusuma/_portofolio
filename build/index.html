@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta
+      name="google-site-verification"
+      content="cRwUPxsoA5U0tm_tqZekt7_UlFeC-7CvaeZklpWy25U" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Showcase Project Protofolio" />
@@ -8,12 +11,13 @@
     <meta name="author" content="Mahesa Adi Kusuma" />
     <title>Home</title>
     <link href="css/build.css" rel="stylesheet" />
-    
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css"
-      rel="stylesheet" />
+      rel="stylesheet"
+      defer />
   </head>
-  <body>
+  <body class="">
     <section class="max-w-6xl mx-auto">
       <div class="container mx-auto">
         <!-- Mobile -->
@@ -21,56 +25,52 @@
           <div class="flex items-center justify-between">
             <div class="">
               <img
-                src="assets/images/esa.webp"
+                src="assets/images/esa_1.webp"
                 alt="avatar_profile"
                 class="w-12 h-12 rounded-full border-2 border-neutral-500" />
             </div>
 
             <div class="flex items-center gap-4">
               <div
-                class="hover:bg-slate-300 p-2 rounded-full cursor-pointer" id="toggleMobile"
-                >
+                class="hover:bg-slate-300 p-2 rounded-full cursor-pointer"
+                id="toggleMobile">
                 <div class="hidden" id="dark-mobile">
                   <i
-                  data-feather="moon"
-                  width="20"
-                  height="20"
-                  class="font-medium"></i>
+                    data-feather="moon"
+                    width="20"
+                    height="20"
+                    class="font-medium"></i>
                 </div>
 
                 <div class="" id="light-mobile">
                   <i
-                  data-feather="sun"
-                  width="20"
-                  height="20"
-                  class="font-medium"></i>
+                    data-feather="sun"
+                    width="20"
+                    height="20"
+                    class="font-medium"></i>
                 </div>
               </div>
               <div class="cursor-pointer" id="hamburger">
                 <div class="" id="align-right">
                   <i
-                  data-feather="align-right"
-                  width="30"
-                  height="30"
-                  class="font-medium cursor-pointer"></i>
+                    data-feather="align-right"
+                    width="30"
+                    height="30"
+                    class="font-medium cursor-pointer"></i>
                 </div>
-
 
                 <div class="hidden" id="close">
                   <i
-                  data-feather="x"
-                  width="30"
-                  height="30"
-                  class="font-medium cursor-pointer"></i>
+                    data-feather="x"
+                    width="30"
+                    height="30"
+                    class="font-medium cursor-pointer"></i>
                 </div>
               </div>
             </div>
           </div>
 
-          <div
-            
-            class="relative hidden"
-            id="nav-menu">
+          <div class="relative hidden" id="nav-menu">
             <div
               class="absolute z-50 top-5 min-w-full bg-white rounded-lg shadow-lg border border-slate-500">
               <nav class="p-5">
@@ -140,21 +140,23 @@
                   <span class="font-bold text-lg">Hire Me</span>
                 </div>
                 <div class="flex items-center justify-center cursor-pointer">
-                  <div class="hover:bg-slate-300 p-2 rounded-full "  id="button-theme">
+                  <div
+                    class="hover:bg-slate-300 p-2 rounded-full"
+                    id="button-theme">
                     <div class="hidden" id="darkD">
                       <i
-                      data-feather="moon"
-                      width="20"
-                      height="20"
-                      class="font-medium"></i>
+                        data-feather="moon"
+                        width="20"
+                        height="20"
+                        class="font-medium"></i>
                     </div>
 
                     <div class="" id="lightD">
                       <i
-                      data-feather="sun"
-                      width="20"
-                      height="20"
-                      class="font-medium"></i>
+                        data-feather="sun"
+                        width="20"
+                        height="20"
+                        class="font-medium"></i>
                     </div>
                   </div>
                 </div>
@@ -190,9 +192,7 @@
 
                     <li
                       class="p-3 pl-5 my-1 text-neutral-700 hover:bg-slate-100 hover:scale-105 transition duration-300 ease-in-out cursor-pointer rounded-lg">
-                      <a
-                        href="project.html"
-                        class="flex items-center gap-5">
+                      <a href="project.html" class="flex items-center gap-5">
                         <i
                           data-feather="folder"
                           width="20"
@@ -246,37 +246,26 @@
           <div class="col-span-12 lg:col-span-9 px-5">
             <main>
               <div class="my-5">
-                <div class="">
-                  <div class="flex item-center justify-between">
-                    <h1 class="font-bold text-2xl text-neutral-800">
-                      Projects
-                    </h1>
-                    <a
-                      href=""
-                      data-tooltip-target="tooltip-left"
-                      data-tooltip-placement="left"
-                      class="animate-bounce cursor-pointer">
-                      <i
-                        data-feather="download"
-                        width="20"
-                        height="20"
-                        class="font-medium"></i>
-                      <div
-                        id="tooltip-left"
-                        role="tooltip"
-                        class="absolute z-10 invisible inline-block px-8 py-1 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-                        Resume
-                      </div>
-                    </a>
-                  </div>
-
-                  <p
-                    class="font-normal text-neutral-600 tracking-tight leading-tight my-3 text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reiciendis sapiente accusantium quis voluptatum veniam,
-                    rerum mollitia sunt ipsa eveniet ullam corrupti doloribus
-                    iusto, magni cum velit laboriosam quisquam fugit iste!
-                  </p>
+                <div class="flex item-center justify-between">
+                  <h1 class="font-bold text-2xl text-neutral-800">Projects</h1>
+                  <a
+                    href="assets/Mahesa Adi Kusuma-resume.pdf"
+                    data-tooltip-target="tooltip-left"
+                    data-tooltip-placement="left"
+                    class="animate-bounce cursor-pointer"
+                    target="_blank">
+                    <i
+                      data-feather="download"
+                      width="20"
+                      height="20"
+                      class="font-medium"></i>
+                    <div
+                      id="tooltip-left"
+                      role="tooltip"
+                      class="absolute z-10 invisible inline-block px-8 py-1 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                      Resume
+                    </div>
+                  </a>
                 </div>
 
                 <div class="my-10">
@@ -284,18 +273,19 @@
                     Latest Projects
                   </h1>
                   <div
-                    class="grid md:grid-cols-2 justify-center items-center gap-4 lg:gap-0">
+                    class="grid md:grid-cols-2 justify-center items-center gap-5 lg:gap-8">
                     <!-- project -->
                     <div
-                      class="hover:scale-105 transition duration-200 ease-out mx-auto max-w-sm  md:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                      <a href="Furniluxe.html" class="object-cover h-14">
+                      class="hover:scale-105 transition duration-200 ease-out mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700">
+                      <a href="Furniluxe.html" class="object-cover w-full">
                         <img
-                          class="rounded-t-lg"
-                          src="./assets/Project/Furniluxe.webp"
-                          alt=""
-                          class="object-cover w-full h-14"
+                          class="rounded-t-lg w-full h-56 object-cover"
+                          src="assets/Project/Furniluxe.webp"
+                          alt="Project"
+                          class="object-cover w-full"
                           width="500"
-                          height="500" />
+                          height="500"
+                          loading="lazy" />
                       </a>
                       <div class="p-5">
                         <a href="#">
@@ -312,10 +302,10 @@
                     </div>
 
                     <div
-                      class="hover:scale-105 transition duration-200 mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                      <a href="Store.html" class="object-cover h-14">
+                      class="hover:scale-105 transition duration-200 mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700">
+                      <a href="Store.html" class="object-cover w-full">
                         <img
-                          class="rounded-t-lg"
+                          class="rounded-t-lg w-full h-56 object-cover"
                           src="./assets/Project/Store.webp"
                           alt="Store"
                           class="object-cover w-full h-14"
@@ -337,10 +327,10 @@
                     </div>
 
                     <div
-                      class="hover:scale-105 transition duration-200 mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                      <a href="Nomads.html" class="object-cover h-14">
+                      class="hover:scale-105 transition duration-200 mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700">
+                      <a href="Nomads.html" class="object-cover w-full">
                         <img
-                          class="rounded-t-lg"
+                          class="rounded-t-lg w-full h-56 object-cover"
                           src="assets/Project/Nomads.webp"
                           alt=""
                           class="object-cover w-full h-14"
@@ -356,16 +346,25 @@
                         </a>
                         <p
                           class="mb-3 text-base font-normal text-gray-700 dark:text-gray-400">
-                          Nomads Laravel website travel, membuat UI/UX development
+                          Nomads Laravel website travel, membuat UI/UX
+                          development
                         </p>
                       </div>
                     </div>
 
                     <div
-                      class="hover:scale-105 transition duration-200 mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                      <a href="UX_Desain.html" class="object-cover h-14">
-                        <div class="bg-blue-800 h-36 rounded-lg p-5 ">
-                          <h1 class="text-3xl text-white font-bold">UX Design</h1>
+                      class="hover:scale-105 transition duration-200 mx-auto max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700">
+                      <a href="UX_Desain.html" class="w-full  object-cover">
+                        <div class="rounded-lg ">
+                          <a href="" class="object-cover w-full">
+                            <img
+                              class="rounded-t-lg w-full h-56 object-cover"
+                              src="assets/Project/Dicoding/Home-1.webp"
+                              alt="Project"
+                              class="object-cover w-full"
+                              width="500"
+                              height="500" />
+                          </a>
                         </div>
                       </a>
                       <div class="p-5">
@@ -377,7 +376,9 @@
                         </a>
                         <p
                           class="mb-3 text-base font-normal text-gray-700 dark:text-gray-400">
-                          Mempelajari dasar-dasar ux desain beserta detail prosesnya dengan mengacu pada framework Design Thinking
+                          Mempelajari dasar-dasar ux desain beserta detail
+                          prosesnya...
+                          
                         </p>
                       </div>
                     </div>
@@ -400,11 +401,13 @@
     </section>
 
     <script src="js/theme.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"
+      defer></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
       feather.replace();
-      updateIcon()
+      updateIcon();
     </script>
   </body>
 </html>
